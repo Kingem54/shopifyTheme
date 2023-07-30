@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCB Board and Circuits Theme</title>
+    <style>
+        body {
+            background-color: #1f1f1f;
+            color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: #0f0f0f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #header h1 {
+            font-size: 36px;
+        }
+
+        #nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        #nav a {
+            color: #f2f2f2;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        #nav a:hover {
+            background-color: #444;
+            border-radius: 5px;
+        }
+
+        #main {
+            padding: 20px;
+        }
+
+        .pcb-board {
+            background-color: #444;
+            border: 2px solid #555;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .circuit-line {
+            height: 2px;
+            background-color: #bbb;
+            margin: 10px 0;
+        }
+
+        #footer {
+            background-color: #0f0f0f;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>PCB Board and Circuits Theme</h1>
+    </div>
+    <div id="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </div>
+    <div id="main">
+        <div class="pcb-board">
+            <h2>Product Title</h2>
+            <div class="circuit-line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec massa eu augue pulvinar venenatis.</p>
+        </div>
+
+        <div class="pcb-board">
+            <h2>Product Title</h2>
+            <div class="circuit-line"></div>
+            <p>Integer tincidunt urna sed justo vehicula, at eleifend enim accumsan. Praesent euismod tristique venenatis.</p>
+        </div>
+
+        <!-- Add more PCB board product sections as needed -->
+
+    </div>
+    <div id="footer">
+        <p>&copy; 2023 Your PCB Board and Circuits Company. All rights reserved.</p>
+    </div>
+</body>
+</html>
